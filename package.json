@@ -1,0 +1,12 @@
+{
+  "name": "addition-utility",
+  "version": "1.0.0",
+  "description": "Small utility that exports an addition function and tests",
+  "main": "src/add.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
