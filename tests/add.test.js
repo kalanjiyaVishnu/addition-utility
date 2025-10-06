@@ -9,6 +9,10 @@ test('adds two positive integers', () => {
   assert.equal(add(1, 2), 3)
 })
 
+test('adds two zeros equals', () => {
+  assert.equal(add(0, 0), 0)
+})
+
 test('adds negative and positive number', () => {
   assert.equal(add(-5, 3), -2)
 })
